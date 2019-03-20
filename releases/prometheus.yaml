@@ -14,6 +14,10 @@ spec:
     alertmanager:
       statefulSet:
         enabled: true
+      persistentVolume:
+        enabled: false
     server:
       statefulSet:
         enabled: true
+      persistentVolume:
+        enabled: false
