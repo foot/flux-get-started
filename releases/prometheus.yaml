@@ -13,4 +13,4 @@ spec:
   values:
     alertmanager:
       persistentVolume:
-        storageClass: standard
+        enabled: false
