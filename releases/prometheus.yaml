@@ -13,7 +13,7 @@ spec:
   values:
     alertmanager:
       statefulSet:
-        enabled: true
+        enabled: false
     server:
       statefulSet:
         enabled: true
